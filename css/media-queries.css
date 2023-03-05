@@ -1,0 +1,89 @@
+@media screen and (max-width: 810px){
+  
+    .container{
+        margin: 0 40px;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    h2{
+        font-size: 1.25rem;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+
+    p,
+    a{
+        font-size: .8rem;
+    }
+    
+    .encabezado__menu{
+        display: none;
+    }
+
+    .encabezado__nombre{
+        padding: 0;
+        font-size: 2rem
+    }
+
+    .about{
+        width: 100%;
+    }
+
+    .proyectos__lista__tarjeta{
+        flex-direction: column;
+    }
+
+
+    .proyecto__tarjeta__frame{
+        width: 100%;
+    }
+
+    .proyecto__tarjeta__texto{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .datos-de-contacto{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 657px){
+
+    .container{
+        margin: 0 20px;
+    }
+    
+    h1{
+        font-size: 1rem;
+    }
+    
+    .banner{
+        flex-direction: column-reverse;
+    }
+
+    .banner__redes,
+    .banner__texto{
+        width: 100%;
+        padding: 0;
+    }
+
+    .banner__foto{
+        width: 30%;
+    }
+
+    .item{
+        width: 120px;
+    }
+
+    .formacion__escuela{
+        width: 100%;
+    }
+
+}
