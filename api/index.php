@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/media-queries.css">
 
     <title>Kevin Julio</title>
 </head>
@@ -37,7 +37,7 @@
                         <ul class="banner__redes">
                             <li><a href="https://github.com/Olafokjm" target="_blank"><i class="fa-brands fa-github"></i></a></li>
                             <li><a href="https://www.linkedin.com/in/kevinjm1987/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                            <li><a class="descarga" download href="pdf/Kevin_Julio_CV.pdf">Descargar 📄</a></li>
+                            <li><a class="descarga" download href="../pdf/Kevin_Julio_CV.pdf">Descargar 📄</a></li>
                         </ul>
                     </div>
                     <div class="banner__foto box-shadow">
@@ -118,38 +118,38 @@
                     <div class="formacion__lista">
                         <div class="formacion__escuela">
                             <div class="formacion__frame">
-                                <img src="img/ensb.png" alt="logo ENSB">
+                                <img src="../img/ensb.png" alt="logo ENSB">
                             </div>
                             <h3>Electromecánica Naval</h3></br>
                             <p>2011 - Escuela Naval de Suboficiales ARC "Barranquilla"</p>
                         </div>
                         <div class="formacion__escuela">
                             <div class="formacion__frame">
-                                <img src="img/cet.png" alt="logo CET">
+                                <img src="i../mg/cet.png" alt="logo CET">
                             </div>
                             <h3>Introducción a la programación HTML con CSS</h3></br>
                             <p>2021 - Colsubsidio Educación Tecnológica - CET</p>
                         </div>
                         <div class="formacion__escuela">
                             <div class="formacion__frame">
-                                <img src="img/sena.png" alt="logo SENA">
+                                <img src="../img/sena.png" alt="logo SENA">
                             </div>
                             <h3>Desarrollo web con PHP</h3></br>
                             <p>2022 - Servicio Nacional de Aprendizaje "SENA"</p>
                         </div>
                         <div class="formacion__escuela">
                             <div class="formacion__frame">
-                                <img src="img/sena.png" alt="logo SENA">
+                                <img src="../img/alura+one.png" alt="logo alura + ONE">
                             </div>
-                            <h3>Análisis y diseño de software</h3></br>
-                            <p> En curso - Servicio Nacional de Aprendizaje "SENA"</p>
+                            <h3>Formación en FrontEnd</h3></br>
+                            <p>2023 - Oracle ONE Alura Latam</p>
                         </div>
                         <div class="formacion__escuela">
                             <div class="formacion__frame">
-                                <img src="img/alura+one.png" alt="logo alura + ONE">
+                                <img src="../img/sena.png" alt="logo SENA">
                             </div>
-                            <h3>Formación en FrontEnd</h3></br>
-                            <p>En curso - Oracle ONE Alura Latam</p>
+                            <h3>Análisis y diseño de software</h3></br>
+                            <p> En curso - Servicio Nacional de Aprendizaje "SENA"</p>
                         </div>
                     </div>
                 </div>
@@ -183,7 +183,7 @@
 
                         <div class="proyectos__lista__tarjeta">
                             <div class="proyecto__tarjeta__frame">
-                                <img src="img/P_Diris.jpg" alt="Foto D'Iris">                                
+                                <img src="../img/P_Diris.jpg" alt="Foto D'Iris">                                
                             </div>
                             <div class="proyecto__tarjeta__texto">
                                 <h3>Deditos D'Iris</h3></br>
@@ -202,7 +202,7 @@
 
                         <div class="proyectos__lista__tarjeta">
                             <div class="proyecto__tarjeta__frame">
-                                <img src="img/P_teatro.jpg" alt="Foto teatro">                                
+                                <img src="../img/P_teatro.jpg" alt="Foto teatro">                                
                             </div>
                             <div class="proyecto__tarjeta__texto">
                                 <h3>Teatro Colombia</h3></br>
@@ -221,7 +221,7 @@
 
                         <div class="proyectos__lista__tarjeta">
                             <div class="proyecto__tarjeta__frame">
-                                <img src="img/P_Cafeteria.jpg" alt="Foto cafeteria">                                
+                                <img src="../img/P_Cafeteria.jpg" alt="Foto cafeteria">                                
                             </div>
                             <div class="proyecto__tarjeta__texto">
                                 <h3>Cartagena Café Bar</h3></br>
@@ -297,6 +297,6 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/96b9f7210e.js" crossorigin="anonymous"></script>
-    <script src="js/formulario.js"></script>
+    <script src="../js/formulario.js"></script>
 </body>
 </html>
