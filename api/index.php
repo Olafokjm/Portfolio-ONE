@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/media-queries.css">
 
@@ -41,7 +41,7 @@
                         </ul>
                     </div>
                     <div class="banner__foto box-shadow">
-                        <img src="img/Profile1.jpg" alt="Foto de perfil">
+                        <img src="../img/Profile1.jpg" alt="Foto de perfil">
                     </div>
                 </div>
             </div>
@@ -125,7 +125,7 @@
                         </div>
                         <div class="formacion__escuela">
                             <div class="formacion__frame">
-                                <img src="i../mg/cet.png" alt="logo CET">
+                                <img src="../img/cet.png" alt="logo CET">
                             </div>
                             <h3>Introducción a la programación HTML con CSS</h3></br>
                             <p>2021 - Colsubsidio Educación Tecnológica - CET</p>
@@ -164,7 +164,7 @@
                     <div class="proyectos__lista">
                         <div class="proyectos__lista__tarjeta">
                             <div class="proyecto__tarjeta__frame">
-                                <img src="img/P_Encriptador.jpg" alt="Foto encriptador">                                
+                                <img src="../img/P_Encriptador.jpg" alt="Foto encriptador">                                
                             </div>
                             <div class="proyecto__tarjeta__texto">
                                 <h3>Encriptador de texto</h3></br>
