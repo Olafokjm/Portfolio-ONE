@@ -247,7 +247,7 @@
                 <div class="datos-de-contacto">
                     <h2>Contacto</h2></br>
                     <p>¿Quieres contactarme? Por favor diligencia el siguiente formulario y me pondré en contacto lo más pronto posible</p></br>
-                    <form name="form" action="mailto:juliokjm@gmail.com?subject=asunto" method="POST">
+                    <form name="form" action="index.php" method="POST">
                         <input type="text" name="nombre" placeholder="Nombre">
 
                         <input type="email" name="correo" placeholder="correo">
@@ -257,7 +257,35 @@
                         <textarea name="mensaje" id="" cols="10" rows="5" placeholder="Escribe tu mensaje aquí..."></textarea>
 
                         <button type="submit" class="boton1">Enviar</button>
-                    </form>          
+                    </form>   
+                    
+                    <?php
+						    if($_SERVER["REQUEST_METHOD"] == "POST")
+						    {
+						    	$nombre = $_POST['nombre'] ;
+						    	$correo = $_POST['correo'] ;
+                                $asunto = $_POST['asunto'] ;
+						    	$mensaje = $_POST['mensaje'];
+                            
+                                if(isset($nombre) && isset($email) && isset($mensaje) && isset($asunto))
+						    	{
+                                
+						    	    $para = "juliokjm@gmail.com";
+						    	    $asunto;
+						    	    $cuerpo = $nombre."\n".$email."\n".$mensaje;
+						    	    $adicional = "From: ".$para;
+                                    
+                                    mail($para,$asunto,$cuerpo,$adicional)
+                                    ?>
+						    	        <script>
+                                            alert("Envío exitoso");
+                                        </script>
+                                    <?php
+						    	}
+						    }
+					    ?>
+
+
                 </div>
             </div>
         </section>
