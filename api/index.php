@@ -260,31 +260,30 @@
                     </form>   
                     
                     <?php
-						    if($_SERVER["REQUEST_METHOD"] == "POST")
-						    {
-						    	$nombre = $_POST['nombre'] ;
-						    	$correo = $_POST['correo'] ;
-                                $asunto = $_POST['asunto'] ;
-						    	$mensaje = $_POST['mensaje'];
+						if(isset($_POST['submit']))
+						{
+							$nombre = $_POST['nombre'] ;
+							$correo = $_POST['correo'] ;
+                            $asunto = $_POST['asunto'] ;
+							$mensaje = $_POST['mensaje'];
+                        
+                            if(isset($nombre) && isset($correo) && isset($mensaje) && isset($asunto))
+							{
                             
-                                if(isset($nombre) && isset($correo) && isset($mensaje) && isset($asunto))
-						    	{
+							    $para = "juliokjm@gmail.com";
+							    $asunto;
+							    $cuerpo = $nombre."\n".$correo."\n".$mensaje;
+							    $adicional = "From: ".$para;
                                 
-						    	    $para = "juliokjm@gmail.com";
-						    	    $asunto;
-						    	    $cuerpo = $nombre."\n".$correo."\n".$mensaje;
-						    	    $adicional = "From: ".$para;
-                                    
-                                    mail($para,$asunto,$cuerpo,$adicional)
-                                    ?>
-						    	        <script>
-                                            alert("Envío exitoso");
-                                        </script>
-                                    <?php
-						    	}
-						    }
-					    ?>
-
+                                mail($para,$asunto,$cuerpo,$adicional)
+                                ?>
+							        <script>
+                                        alert("Envío exitoso");
+                                    </script>
+                                <?php
+							}
+						}
+					?>
 
                 </div>
             </div>
