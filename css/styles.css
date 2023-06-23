@@ -280,12 +280,13 @@ header{
 }
 
 .proyecto__tarjeta__frame{
-    width: 60%;
+    width: 50%;
     text-align: center;
-    border-radius: 10px;
-    border: solid 2px var(--color4);
-    box-shadow: 1px 1px 10px var(--color5);
     overflow: hidden;
+}
+
+#logo{
+    visibility: hidden!important;
 }
 
 .proyecto__tarjeta__frame img{
@@ -294,7 +295,7 @@ header{
 }
 
 .proyecto__tarjeta__texto{
-    width: 35%;
+    width: 45%;
     margin: auto 0;
 }
 
