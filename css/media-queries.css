@@ -4,6 +4,15 @@
         margin: 0 40px;
     }
 
+    .about,
+    .habilidades,
+    .formación,
+    .proyectos,
+    .datos-de-contacto{
+        padding-top: 30px;
+    }
+
+
     h1{
         font-size: 1.5rem;
     }

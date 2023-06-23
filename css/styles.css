@@ -285,10 +285,6 @@ header{
     overflow: hidden;
 }
 
-#logo{
-    visibility: hidden!important;
-}
-
 .proyecto__tarjeta__frame img{
     width: 100%;
     object-fit: cover;
@@ -324,6 +320,7 @@ header{
 .datos-de-contacto{
     padding: 60px 0;
     width: 500px;
+    min-height: 300px;
 }
 
 .datos-de-contacto form{
